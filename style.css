@@ -57,13 +57,16 @@ main {
 }
 
 .image-section {
-  height: 100%;
   overflow-x: hidden;
 }
 
 .womenOnComputer {
   position: relative;
   right: 8rem;
+}
+
+.mobile-womenOnComputer {
+  display: none;
 }
 
 .box {
@@ -82,6 +85,8 @@ main {
   padding-bottom: 3rem;
 }
 
+/*   Question Section   */
+
 #question1 {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--lightGrayishBlue);
@@ -89,8 +94,8 @@ main {
 
 .Q1-text {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   cursor: pointer;
 }
 
@@ -108,7 +113,7 @@ main {
   display: none;
   color: var(--darkGrayishBlue);
   max-width: 36rem;
-  margin: 0.75rem 0 0 0;
+  padding: 0.75rem 0 0 0;
   line-height: 1.7rem;
 }
 
@@ -197,7 +202,7 @@ main {
 .A4 {
   display: none;
   color: var(--darkGrayishBlue);
-  max-width: 32rem;
+  max-width: 31rem;
   margin: 0.75rem 0 0 0;
   line-height: 1.7rem;
 }
@@ -232,5 +237,96 @@ main {
   line-height: 1.7rem;
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1100px) {
+  #accordionCard {
+    position: relative;
+    background-image: url("images/bg-pattern-mobile.svg");
+    background-position: top;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 9rem 3rem 6rem 3rem;
+  }
+
+  .image-section {
+    width: 100%;
+    overflow-x: visible;
+  }
+
+  .womenOnComputer {
+    display: none;
+  }
+
+  .mobile-womenOnComputer {
+    display: block;
+    position: absolute;
+    top: -12rem;
+    left: 4.35rem;
+    width: 75%;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .FAQ-Section {
+    margin: 0 auto;
+  }
+
+  .FAQ-Section > h1 {
+    font-size: 3.5rem;
+    padding: 6rem 0 4rem 0;
+    text-align: center;
+  }
+
+/*   Question Section   */
+
+  .Q1-text > h3 {
+    margin-right: 3rem;
+  }
+
+  .A1 {
+    font-size: 1.3rem;
+    max-width: 28rem;
+  }
+
+  .Q2-text > h3 {
+    margin-right: 3rem;
+  }
+
+  .A2 {
+    font-size: 1.3rem;
+    max-width: 27rem;
+  }
+
+  .Q3-text > h3 {
+    margin-right: 3rem;
+  }
+
+  .A3 {
+    font-size: 1.3rem;
+    max-width: 29rem;
+  }
+
+  .Q4-text > h3 {
+    margin-right: 3rem;
+  }
+
+  .A4 {
+    font-size: 1.3rem;
+    max-width: 26rem;
+  }
+
+  .Q5-text > h3 {
+    margin-right: 3rem;
+  }
+
+  .A5 {
+    font-size: 1.3rem;
+    max-width: 27rem;
+  }
 }
