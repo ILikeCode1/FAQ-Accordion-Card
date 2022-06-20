@@ -62,7 +62,7 @@ main {
 
 .womenOnComputer {
   position: relative;
-  right: 8rem;
+  right: 7rem;
 }
 
 .mobile-womenOnComputer {
@@ -72,7 +72,7 @@ main {
 .box {
   position: absolute;
   top: 20rem;
-  left: -13rem;
+  left: -9rem;
   overflow-x: visible;
 }
 
@@ -248,7 +248,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 9rem 3rem 6rem 3rem;
   }
 
@@ -283,7 +283,7 @@ main {
     text-align: center;
   }
 
-/*   Question Section   */
+  /*   Question Section   */
 
   .Q1-text > h3 {
     margin-right: 3rem;
