@@ -73,7 +73,6 @@ main {
   position: absolute;
   top: 20rem;
   left: -9rem;
-  overflow-x: visible;
 }
 
 .FAQ-Section {
@@ -112,8 +111,8 @@ main {
 .A1 {
   display: none;
   color: var(--darkGrayishBlue);
-  max-width: 36rem;
-  padding: 0.75rem 0 0 0;
+  max-width: 35rem;
+  margin: 0.75rem 0 0 0;
   line-height: 1.7rem;
 }
 
@@ -248,8 +247,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
-    padding: 9rem 3rem 6rem 3rem;
+    margin-top: 12rem;
+    padding: 7rem 3rem 5rem 3rem;
   }
 
   .image-section {
@@ -279,7 +278,7 @@ main {
 
   .FAQ-Section > h1 {
     font-size: 3.5rem;
-    padding: 6rem 0 4rem 0;
+    padding: 7rem 0 3rem 0;
     text-align: center;
   }
 
